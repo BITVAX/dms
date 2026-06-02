@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
     "name": "Dms Attachment Link",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "category": "Document Management",
     "website": "https://github.com/OCA/dms",
     "author": "Tecnativa, Odoo Community Association (OCA)",
@@ -15,6 +15,7 @@
         "web.assets_backend": [
             "dms_attachment_link/static/src/js/dms_attachment_link.esm.js",
             "dms_attachment_link/static/src/xml/chatter.xml",
+            "dms_attachment_link/static/src/scss/dms_attachment_link.scss",
         ],
     },
     "installable": True,
