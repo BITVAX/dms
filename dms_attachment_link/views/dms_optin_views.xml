@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_dms_storage_form_autoimport" model="ir.ui.view">
+        <field name="name">dms.storage.form.auto.import</field>
+        <field name="model">dms.storage</field>
+        <field name="inherit_id" ref="dms.view_dms_storage_form" />
+        <field name="arch" type="xml">
+            <field name="save_type" position="after">
+                <field name="auto_import_attachments" />
+            </field>
+        </field>
+    </record>
+    <record id="view_dms_directory_form_autoimport" model="ir.ui.view">
+        <field name="name">dms.directory.form.auto.import</field>
+        <field name="model">dms.directory</field>
+        <field name="inherit_id" ref="dms.view_dms_directory_form" />
+        <field name="arch" type="xml">
+            <field name="record_ref" position="after">
+                <field name="auto_import_attachments" />
+            </field>
+        </field>
+    </record>
+</odoo>
